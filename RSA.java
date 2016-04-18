@@ -1,4 +1,5 @@
-/*
+/*Created By: David M Robertson
+ * 
  * Input for a keygen is needed initially; use a small integer ex.719
  * must be a reasonably small integer or the performance will decrease exponentially
  * The larger the integer provided, the larger the keys generated
@@ -42,7 +43,7 @@ public class RSA
     
     else
     {
-      System.out.println("one arg required either [-encrypt] or [-decrypt]");
+      System.out.println("invalid arguments");
       System.exit(1);
     }  
   }
